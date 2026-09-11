@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#Book text files (not code, excluded from repo)
+Books/*.txt
