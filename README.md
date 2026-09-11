@@ -21,7 +21,8 @@ Python (standard library only — no external dependencies)
 - Basic project structure (separating logic across files)
 
 ## How to run
-1. Place a `.txt` file inside a `Books/` folder in the project directory
+1. Place a `.txt` file inside a `Books/` folder in the project directory 
+   (e.g. download a free book from [Project Gutenberg](https://www.gutenberg.org/))
 2. Run the script, passing the filename:
 ```bash
 python3 main.py Books/your_file.txt
