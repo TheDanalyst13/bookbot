@@ -21,17 +21,22 @@ Python (standard library only — no external dependencies)
 - Basic project structure (separating logic across files)
 
 ## How to run
-1. Place a `.txt` file inside a `Books/` folder in the project directory 
-   (e.g. download a free book from [Project Gutenberg](https://www.gutenberg.org/))
-2. Run the script, passing the filename:
+1. Clone or download this repo
+2. From the project directory, run the script against the included sample book:
 ```bash
-python3 main.py Books/your_file.txt
+python3 main.py Books/frankenstein.txt
 ```
 3. View the word count and character frequency report printed to the console
 
+To try it with a different book, download any `.txt` file from [Project Gutenberg](https://www.gutenberg.org/) (use the "Plain Text UTF-8" download option), place it in the `Books/` folder, and run:
+```bash
+python3 main.py Books/your_file.txt
+```
+
 ## Repo Structure
 ```
-├── Books/          # place .txt files here (not included in repo)
+├── Books/
+│   └── frankenstein.txt   # sample public-domain book (Project Gutenberg) for testing
 ├── main.py
 ├── stats.py
 └── README.md
