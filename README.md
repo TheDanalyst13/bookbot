@@ -20,6 +20,9 @@ Python (standard library only — no external dependencies)
 - Sorting and formatting output for readability
 - Basic project structure (separating logic across files)
 
+## Requirements
+- Python 3.x installed
+
 ## How to run
 1. Clone or download this repo
 2. From the project directory, run the script against the included sample book:
