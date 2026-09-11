@@ -219,3 +219,4 @@ __marimo__/
 
 #Book text files (not code, excluded from repo)
 Books/*.txt
+!Books/frankenstein.txt
